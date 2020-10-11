@@ -1,7 +1,4 @@
-/*!
-
-=========================================================
-* Argon Dashboard React - v1.1.0
+/* Argon Dashboard React - v1.1.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/argon-dashboard-react
@@ -22,6 +19,13 @@ import Register from "views/examples/Register.js";
 import Login from "views/examples/Login.js";
 import Tables from "views/examples/Tables.js";
 import Icons from "views/examples/Icons.js";
+import Index from "views/Index.jsx";
+import Profile from "views/examples/Profile.jsx";
+import Maps from "views/examples/Maps.jsx";
+import Register from "views/examples/Register.jsx";
+import Login from "views/examples/Login.jsx";
+import Tables from "views/examples/Tables.jsx";
+import Icons from "views/examples/Icons.jsx";
 
 var routes = [
   {
