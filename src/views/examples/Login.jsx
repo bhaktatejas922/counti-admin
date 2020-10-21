@@ -6,7 +6,7 @@ import loginAction from "actions/loginAction";
 import {
   Button,
   Card,
-  CardHeader,
+  // CardHeader,
   CardBody,
   FormGroup,
   Form,
@@ -33,11 +33,11 @@ class Login extends React.Component {
       <>
         <Col lg="5" md="7">
           <Card className="bg-secondary shadow border-0">
-            <CardHeader className="bg-transparent pb-5">
+            {/*<CardHeader className="bg-transparent pb-5">
               <div className="text-muted text-center mt-2 mb-3">
                 <small>Sign in with</small>
               </div>
-              <div className="btn-wrapper text-center">
+              {/* <div className="btn-wrapper text-center">
                 <Button
                   className="btn-neutral btn-icon"
                   color="default"
@@ -66,8 +66,8 @@ class Login extends React.Component {
                   </span>
                   <span className="btn-inner--text">Google</span>
                 </Button>
-              </div>
-            </CardHeader>
+              </div> 
+            </CardHeader> */}
             <CardBody className="px-lg-5 py-lg-5">
               <div className="text-center text-muted mb-4">
                 <small>Or sign in with credentials</small>
@@ -145,8 +145,8 @@ class Login extends React.Component {
             <Col className="text-right" xs="6">
               <a
                 className="text-light"
-                href="#pablo"
-                onClick={e => e.preventDefault()}
+                href="/auth/register"
+                onClick={e => e}
               >
                 <small>Create new account</small>
               </a>
@@ -168,3 +168,4 @@ export default connect(
   mapStateToProps,
   mapDispatchToProps
 )(Login);
+

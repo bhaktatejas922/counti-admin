@@ -91,7 +91,7 @@ class Profile extends React.Component {
                     </div>
                     <div className="h5 mt-4">
                       <i className="ni business_briefcase-24 mr-2" />
-                      Solution Manager - Creative Tim Officer
+                      Solution Manager - Counti Officer
                     </div>
                     <div>
                       <i className="ni education_hat mr-2" />

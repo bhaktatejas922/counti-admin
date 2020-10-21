@@ -234,7 +234,7 @@ class Sidebar extends React.Component {
                   Getting started
                 </NavLink>
               </NavItem>
-              <NavItem>
+              {/* <NavItem>
                 <NavLink href="https://demos.creative-tim.com/argon-dashboard-react/documentation/colors?ref=adr-admin-sidebar">
                   <i className="ni ni-palette" />
                   Foundation
@@ -245,7 +245,7 @@ class Sidebar extends React.Component {
                   <i className="ni ni-ui-04" />
                   Components
                 </NavLink>
-              </NavItem>
+              </NavItem> */}
             </Nav>
           </Collapse>
         </Container>

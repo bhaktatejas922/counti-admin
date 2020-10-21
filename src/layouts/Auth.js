@@ -5,10 +5,10 @@
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/argon-dashboard-react
-* Copyright 2019 Creative Tim (https://www.creative-tim.com)
+* Copyright 2019 Counti (https://www.creative-tim.com)
 * Licensed under MIT (https://github.com/creativetimofficial/argon-dashboard-react/blob/master/LICENSE.md)
 
-* Coded by Creative Tim
+* Coded by Counti
 
 =========================================================
 
@@ -60,8 +60,7 @@ class Auth extends React.Component {
                   <Col lg="5" md="6">
                     <h1 className="text-white">Welcome!</h1>
                     <p className="text-lead text-light">
-                      Use these awesome forms to login or create new account in
-                      your project for free.
+                      Sign in with your email and password below to access your orgs dashboards.
                     </p>
                   </Col>
                 </Row>

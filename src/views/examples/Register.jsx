@@ -39,7 +39,7 @@ class Register extends React.Component {
                 <small>Sign up with</small>
               </div>
               <div className="text-center">
-                <Button
+                {/* <Button
                   className="btn-neutral btn-icon mr-4"
                   color="default"
                   href="#pablo"
@@ -52,7 +52,7 @@ class Register extends React.Component {
                     />
                   </span>
                   <span className="btn-inner--text">Github</span>
-                </Button>
+                </Button> */}
                 <Button
                   className="btn-neutral btn-icon"
                   color="default"

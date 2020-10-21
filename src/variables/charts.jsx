@@ -1,4 +1,10 @@
 const Chart = require("chart.js");
+const firebaseconf = require('firebaseConfig.js');
+const firebase = require('firebase');
+// console.log(Object.getOwnPropertyNames(firebaseconf));
+// console.log(Object.getOwnPropertyNames(firebase));
+
+
 //
 // Chart extension for making the bars rounded
 // Code from: https://codepen.io/jedtrow/full/ygRYgo
@@ -284,6 +290,17 @@ function parseOptions(parent, options) {
     }
   }
 }
+// Get data1 (short term (last hour)) and data2 (long term last 8 hours)
+var ref = firebase.database().ref('109')
+// ref.on("value",)
+// console.log(Object.getOwnPropertyNames(ref1));
+ref.on("value", function(snapshot) {
+  console.error('Success');
+  console.error(snapshot.val());
+}, function (errorObject) {
+  console.error("The read failed: " + errorObject.code);
+});
+
 
 // Example 1 of Chart inside src/views/Index.jsx (Sales value - Card)
 let chartExample1 = {
@@ -328,7 +345,7 @@ let chartExample1 = {
       datasets: [
         {
           label: "Performance",
-          data: [0, 20, 10, 30, 15, 40, 20, 60, 60]
+          data: [0, 20, 10, 25, 15, 40, 20, 60, 60]
         }
       ]
     };

@@ -13,13 +13,13 @@ class Login extends React.Component {
             <Row className="align-items-center justify-content-xl-between">
               <Col xl="6">
                 <div className="copyright text-center text-xl-left text-muted">
-                  © 2018{" "}
+                  © 2020{" "}
                   <a
                     className="font-weight-bold ml-1"
                     href="https://www.creative-tim.com?ref=adr-auth-footer"
                     target="_blank"
                   >
-                    Creative Tim
+                    Counti
                   </a>
                 </div>
               </Col>
@@ -30,7 +30,7 @@ class Login extends React.Component {
                       href="https://www.creative-tim.com?ref=adr-auth-footer"
                       target="_blank"
                     >
-                      Creative Tim
+                      Counti
                     </NavLink>
                   </NavItem>
                   <NavItem>

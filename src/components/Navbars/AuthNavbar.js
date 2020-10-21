@@ -5,10 +5,10 @@
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/argon-dashboard-react
-* Copyright 2019 Creative Tim (https://www.creative-tim.com)
+* Copyright 2019 Counti (https://www.creative-tim.com)
 * Licensed under MIT (https://github.com/creativetimofficial/argon-dashboard-react/blob/master/LICENSE.md)
 
-* Coded by Creative Tim
+* Coded by Counti
 
 =========================================================
 
@@ -40,7 +40,7 @@ class AdminNavbar extends React.Component {
         >
           <Container className="px-4">
             <NavbarBrand to="/" tag={Link}>
-              <img alt="..." src={require("assets/img/brand/argon-react-white.png")} />
+              <img alt="..." src={require("assets/img/brand/logo-white.png")} />
             </NavbarBrand>
             <button className="navbar-toggler" id="navbar-collapse-main">
               <span className="navbar-toggler-icon" />
@@ -52,7 +52,7 @@ class AdminNavbar extends React.Component {
                     <Link to="/">
                       <img
                         alt="..."
-                        src={require("assets/img/brand/argon-react.png")}
+                        src={require("assets/img/brand/logo-black.png")}
                       />
                     </Link>
                   </Col>

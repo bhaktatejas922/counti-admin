@@ -1,18 +1,14 @@
 /*!
 
 =========================================================
-<<<<<<< HEAD
 * Argon Dashboard - v1.1.2
-=======
-* Argon Dashboard - v1.0.0
->>>>>>> counti-tutorial/master
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/argon-dashboard
-* Copyright 2018 Creative Tim (https://www.creative-tim.com)
+* Copyright 2020 Counti (https://www.creative-tim.com)
 * Licensed under MIT (https://github.com/creativetimofficial/argon-dashboard/blob/master/LICENSE.md)
 
-* Coded by Creative Tim
+* Coded by Counti
 
 =========================================================
 
@@ -10254,8 +10250,6 @@ a.btn-icon-only {
 .card-profile-actions {
   padding: .875rem; }
 
-<<<<<<< HEAD
-=======
 .card-blockquote {
   padding: 2rem;
   position: relative; }
@@ -10267,7 +10261,6 @@ a.btn-icon-only {
     top: -94px;
     left: 0; }
 
->>>>>>> counti-tutorial/master
 .card-lift--hover:hover {
   transform: translateY(-20px);
   transition: all 0.15s ease; }
@@ -11130,7 +11123,6 @@ textarea[resize="horizontal"] {
     position: relative;
     top: 2px; }
 
-<<<<<<< HEAD
 @media (min-width: 992px) {
   .nav-item.active-pro {
     position: absolute;
@@ -11138,8 +11130,6 @@ textarea[resize="horizontal"] {
     bottom: 10px;
     background: #f6f9fc; } }
 
-=======
->>>>>>> counti-tutorial/master
 .nav-pills .nav-item:not(:last-child) {
   padding-right: 1rem; }
 
@@ -12501,30 +12491,22 @@ article h5 + figure {
     padding: 0 2px 0 5px;
     vertical-align: middle; }
 
-<<<<<<< HEAD
 /*! nouislider - 14.0.1 - 6/21/2019 */
 /* Functional styling;
  * These styles are required for noUiSlider to function.
  * You don't need to change these rules to apply your design.
  */
-=======
->>>>>>> counti-tutorial/master
 .noUi-target,
 .noUi-target * {
   -webkit-touch-callout: none;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-user-select: none;
-<<<<<<< HEAD
   -ms-touch-action: none;
   touch-action: none;
   -ms-user-select: none;
   -moz-user-select: none;
   user-select: none;
   -moz-box-sizing: border-box;
-=======
-  touch-action: none;
-  user-select: none;
->>>>>>> counti-tutorial/master
   box-sizing: border-box; }
 
 .noUi-target {
@@ -12538,11 +12520,8 @@ article h5 + figure {
   position: relative;
   z-index: 1; }
 
-<<<<<<< HEAD
 /* Wrapper for all connect elements.
  */
-=======
->>>>>>> counti-tutorial/master
 .noUi-connects {
   overflow: hidden;
   z-index: 0; }
@@ -12554,39 +12533,17 @@ article h5 + figure {
   z-index: 1;
   top: 0;
   left: 0;
-<<<<<<< HEAD
-  -ms-transform-origin: 0 0;
-  -webkit-transform-origin: 0 0;
-  -webkit-transform-style: preserve-3d;
-  transform-origin: 0 0;
-  transform-style: flat; }
-
-.noUi-connect {
-  height: 100%;
-  width: 100%; }
-
-.noUi-origin {
-  height: 10%;
-  width: 10%; }
-
-/* Offset direction
- */
-=======
   height: 100%;
   width: 100%;
   transform-origin: 0 0; }
 
->>>>>>> counti-tutorial/master
 html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
   left: auto;
   right: 0; }
 
-<<<<<<< HEAD
 /* Give origins 0 height/width so they don't interfere with clicking the
  * connect elements.
  */
-=======
->>>>>>> counti-tutorial/master
 .noUi-vertical .noUi-origin {
   width: 0; }
 
@@ -12594,7 +12551,6 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
   height: 0; }
 
 .noUi-handle {
-<<<<<<< HEAD
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   position: absolute; }
@@ -12607,26 +12563,14 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
 .noUi-state-tap .noUi-origin {
   -webkit-transition: transform 0.3s;
   transition: transform 0.3s; }
-=======
-  position: absolute; }
-
-.noUi-state-tap .noUi-connect,
-.noUi-state-tap .noUi-origin {
-  transition: transform .3s; }
->>>>>>> counti-tutorial/master
 
 .noUi-state-drag * {
   cursor: inherit !important; }
 
-<<<<<<< HEAD
 /* Slider size and handle placement;
  */
 .noUi-horizontal {
   height: 18px; }
-=======
-.noUi-horizontal {
-  height: 5px; }
->>>>>>> counti-tutorial/master
 
 .noUi-horizontal .noUi-handle {
   width: 34px;
@@ -12635,11 +12579,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
   top: -6px; }
 
 .noUi-vertical {
-<<<<<<< HEAD
   width: 18px; }
-=======
-  width: 5px; }
->>>>>>> counti-tutorial/master
 
 .noUi-vertical .noUi-handle {
   width: 28px;
@@ -12651,7 +12591,6 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   right: -17px;
   left: auto; }
 
-<<<<<<< HEAD
 /* Styling;
  * Giving the connect element a border radius causes issues with using transform: scale
  */
@@ -12661,21 +12600,14 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   border: 1px solid #D3D3D3;
   box-shadow: inset 0 1px 1px #F0F0F0, 0 3px 6px -5px #BBB; }
 
-=======
->>>>>>> counti-tutorial/master
 .noUi-connects {
   border-radius: 3px; }
 
 .noUi-connect {
-<<<<<<< HEAD
   background: #3FB8AF; }
 
 /* Handles and cursors;
  */
-=======
-  background: #5e72e4; }
-
->>>>>>> counti-tutorial/master
 .noUi-draggable {
   cursor: ew-resize; }
 
@@ -12687,7 +12619,6 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   border-radius: 3px;
   background: #FFF;
   cursor: default;
-<<<<<<< HEAD
   box-shadow: inset 0 0 1px #FFF, inset 0 1px 7px #EBEBEB, 0 3px 6px -3px #BBB; }
 
 .noUi-active {
@@ -12718,13 +12649,6 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
 
 .noUi-vertical .noUi-handle:after {
   top: 17px; }
-=======
-  box-shadow: inset 0 0 1px #FFF, inset 0 1px 7px #EBEBEB, 0 3px 6px -3px #BBB;
-  outline: none; }
-
-.noUi-active {
-  outline: none; }
->>>>>>> counti-tutorial/master
 
 /* Disabled state;
  */
@@ -12784,17 +12708,11 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   width: 100%; }
 
 .noUi-value-horizontal {
-<<<<<<< HEAD
   -webkit-transform: translate(-50%, 50%);
   transform: translate(-50%, 50%); }
 
 .noUi-rtl .noUi-value-horizontal {
   -webkit-transform: translate(50%, 50%);
-=======
-  transform: translate(-50%, 50%); }
-
-.noUi-rtl .noUi-value-horizontal {
->>>>>>> counti-tutorial/master
   transform: translate(50%, 50%); }
 
 .noUi-marker-horizontal.noUi-marker {
@@ -12819,11 +12737,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
 
 .noUi-value-vertical {
   -webkit-transform: translate(0, -50%);
-<<<<<<< HEAD
   transform: translate(0, -50%);
-=======
-  transform: translate(0, -50%, 0);
->>>>>>> counti-tutorial/master
   padding-left: 25px; }
 
 .noUi-rtl .noUi-value-vertical {
@@ -12885,15 +12799,12 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   background: #5e72e4;
   box-shadow: none; }
 
-<<<<<<< HEAD
 .noUi-handle:after, .noUi-handle:before {
   content: none; }
 
 .noUi-handle:focus {
   outline: none; }
 
-=======
->>>>>>> counti-tutorial/master
 .noUi-horizontal .noUi-handle,
 .noUi-vertical .noUi-handle {
   top: -5px;
@@ -12985,7 +12896,6 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
     height: 3px;
     bottom: 0; }
 
-<<<<<<< HEAD
 .ct-navbar {
   background-color: #5e72e4;
   box-shadow: rgba(116, 129, 141, 0.1) 0px 1px 1px 0px;
@@ -14015,8 +13925,6 @@ pre > code.highlight {
     .ct-footer-links li + li {
       margin-left: 1rem; }
 
-=======
->>>>>>> counti-tutorial/master
 /*!
 * https://github.com/YouCanBookMe/react-datetime
 */

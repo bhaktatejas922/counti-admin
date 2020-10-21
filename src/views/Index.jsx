@@ -115,7 +115,7 @@ class Index extends React.Component {
                 </CardBody>
               </Card>
             </Col>
-            <Col xl="4">
+            {/* <Col xl="4">
               <Card className="shadow">
                 <CardHeader className="bg-transparent">
                   <Row className="align-items-center">
@@ -128,7 +128,7 @@ class Index extends React.Component {
                   </Row>
                 </CardHeader>
                 <CardBody>
-                  {/* Chart */}
+                  Chart
                   <div className="chart">
                     <Bar
                       data={chartExample2.data}
@@ -137,7 +137,7 @@ class Index extends React.Component {
                   </div>
                 </CardBody>
               </Card>
-            </Col>
+            </Col> */}
           </Row>
           <Row className="mt-5">
             <Col className="mb-5 mb-xl-0" xl="8">
